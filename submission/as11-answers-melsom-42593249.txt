@@ -1,0 +1,37 @@
+// phys3071 as11 melsom 42593249
+
+Problem 3:
+I added a calculation for the velocity evaluated at the maximum density for 
+each of the plotted values of n. The results for the fist time steps of whole 
+time values are shown below.
+
+v(rho_max) = 0.100000
+v(rho_max) = 0.100062
+v(rho_max) = 0.100123
+v(rho_max) = 0.100185
+v(rho_max) = 0.100247
+v(rho_max) = 0.100309
+v(rho_max) = 0.100372
+v(rho_max) = 0.100984
+v(rho_max) = 0.102780
+v(rho_max) = 0.105086
+v(rho_max) = 0.107555
+v(rho_max) = 0.110023
+v(rho_max) = 0.112416
+v(rho_max) = 0.114699
+v(rho_max) = 0.116861
+v(rho_max) = 0.118900
+v(rho_max) = 0.120820
+v(rho_max) = 0.122627
+v(rho_max) = 0.124329
+v(rho_max) = 0.125934
+v(rho_max) = 0.127449
+
+As can be seen from the results of plotting the density function, as the 
+traffic evolves in time, the highest density region moves forward at an 
+increasing rate, and the maximum density decreases. 
+By calculating the velocity at these maximum densities, you can also see that
+the velocity at the maximum density increases at an increasing rate over time.
+This means that as the density decreases, the traffic is able to accelerate.
+Both of these conclusions agree (which they should, because v is a transform of
+rho), but this also seems to agree with my experiences.
